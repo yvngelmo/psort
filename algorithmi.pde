@@ -10,6 +10,7 @@ void setup()
 {
   //basic
   size(600,400);
+  frameRate(-1);
   strokeWeight(width/listLength);
   strokeCap(SQUARE);
   
@@ -29,3 +30,4 @@ void draw()
   background(255);
   visualizeArray(randomList);
 }
+
